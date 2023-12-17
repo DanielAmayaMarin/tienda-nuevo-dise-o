@@ -20,7 +20,7 @@ const ProducList = () => {
   return (
     <section className="h-full w-full flex justify-center">
       <section className="w-[84%] h-full mb-10">
-        <Carousel />
+        <Carousel products={products} />
         <section className="md:pl-3 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
           {
             products.map((producto) => {

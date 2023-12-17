@@ -17,7 +17,7 @@ const Product = ({item}) => {
         <img
           src={image}
           alt=""
-          className=" w-full h-full"
+          className="img_product"
         />
       </div>
       <div className="w-full h-1/2 flex flex-col items-center justify-between  py-5">
@@ -30,7 +30,7 @@ const Product = ({item}) => {
 
         }}
                 type="submit"
-                className="text-white bg-botton-100 hover:bg-botton-200 font-medium rounded-lg text-sm w-1/2 px-5 py-2.5 text-center"
+                className="text-white bg-botton-100 hover:bg-botton-200 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center"
               >
                 Add To Cart
         </button>
